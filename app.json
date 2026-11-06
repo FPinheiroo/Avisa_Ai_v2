@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Avisa Ai!",
+    "slug": "vigilanse",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-notifications",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Permitir que o Avisa Ai! preencha a localização da ocorrência?"
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "android": {
+      "package": "br.com.vigilanse.app",
+      "versionCode": 2
+    },
+    "ios": {
+      "bundleIdentifier": "br.com.vigilanse.app"
+    }
+  }
+}
